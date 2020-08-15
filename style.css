@@ -45,3 +45,16 @@ img{
         transform: translateY(15%)
     }
 }
+
+.emphasis-box{
+    width: 18rem;
+    height: 18rem;
+}
+
+@media only screen and (min-width: 767px){
+    .emphasis-box{
+        width: 22rem;
+        height: 22rem;
+    }
+}
+
