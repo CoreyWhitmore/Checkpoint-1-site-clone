@@ -1,0 +1,47 @@
+body {
+min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+ }
+
+header{ 
+
+}
+
+main{
+flex-grow: 1;
+}
+
+footer{
+
+ }
+
+.hero-image{
+    background-image: url(sea-night-stars-milky-way-wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto
+}
+
+.text-big{
+    font-size: 30pt
+}
+
+.height-fixed-medium{
+    height:20vh
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+.aladin{
+    font-family: "Aladin", serif;
+}
+
+@media only screen and (min-width: 767px){
+    .transform-down-md{
+        transform: translateY(15%)
+    }
+}
